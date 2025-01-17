@@ -6,6 +6,7 @@
 package com.ferafln.game.examplegames.spaceb;
 
 import com.ferafln.game.Game;
+import com.ferafln.game.examplegames.pong.PongGame;
 import com.ferafln.game.examplegames.speedrun.Speed;
 import com.ferafln.game.gameobjects.render.ImageRender;
 import com.ferafln.game.gameobjects.render.Render;
@@ -44,7 +45,7 @@ public class SpaceB extends Game{
     public static void main(String[] args) {
         List<Integer> l = new ArrayList();
         l.stream().sorted();
-        new Speed().start();
+        new PongGame().start();
     }
     
     public SpaceB() {

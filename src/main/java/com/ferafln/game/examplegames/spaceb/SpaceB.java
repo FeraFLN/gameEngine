@@ -6,6 +6,7 @@
 package com.ferafln.game.examplegames.spaceb;
 
 import com.ferafln.game.Game;
+import com.ferafln.game.examplegames.speedrun.Speed;
 import com.ferafln.game.gameobjects.render.ImageRender;
 import com.ferafln.game.gameobjects.render.Render;
 import com.ferafln.game.gameobjects.GameObject;
@@ -19,6 +20,8 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import javax.swing.ImageIcon;
 
@@ -31,15 +34,17 @@ public class SpaceB extends Game{
     private ShootableGameObject p1;
     private ShootableGameObject p2;
     private static final int D_WIDTH = 640, D_HEIGHT = D_WIDTH/12*9;
-    private final Image imageShip = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\lucasShip.png").getImage();
-    private final Image imageShip2 = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\spaceship2.png").getImage();
-    private final Image backImage = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\Space.jpg").getImage();
+    private final Image imageShip = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\lucasShip.png").getImage();
+    private final Image imageShip2 = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\spaceship2.png").getImage();
+    private final Image backImage = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\Space.jpg").getImage();
     private final Render imageRender;
     private final Render imageRender2;
 //    private final Render shapeRender;
     
     public static void main(String[] args) {
-        new SpaceB().start();
+        List<Integer> l = new ArrayList();
+        l.stream().sorted();
+        new Speed().start();
     }
     
     public SpaceB() {

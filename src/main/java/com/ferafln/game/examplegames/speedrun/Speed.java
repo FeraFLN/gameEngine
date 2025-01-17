@@ -33,8 +33,8 @@ public class Speed extends Game {
     private static final int width = 750, height = 600;
     private ShootableGameObject p1;
     private GameObject floor;
-    private final Image backImage = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\MM\\BGMario.png").getImage();
-    private static final Image right = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\MM\\mario\\right.png").getImage();
+    private final Image backImage = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\BGMario.png").getImage();
+    private static final Image right = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\mario\\right.png").getImage();
     
     private final ImageRenderMovements charRender;
 

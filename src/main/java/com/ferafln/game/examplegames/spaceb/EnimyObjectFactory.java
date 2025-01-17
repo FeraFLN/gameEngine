@@ -38,7 +38,7 @@ public class EnimyObjectFactory implements GameObjectFactoy{
     public EnimyObjectFactory(Rectangle area,MovableGameObject... ship) {
         this.area = area;
 //        this.reactions.put(clazz, gameObjects);
-        Image i = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\enimy_spaceship.png").getImage();
+        Image i = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\enimy_spaceship.png").getImage();
         this.enimspaceship = new ImageRender(i, 50, 50);
         this.ship = ship;
 //        this.bar = bar;

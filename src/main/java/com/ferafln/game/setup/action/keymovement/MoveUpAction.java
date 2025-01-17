@@ -21,7 +21,7 @@ public class MoveUpAction implements MovementAction{
     
     @Override
     public void startMove() {
-//        this.movement.moveUp(5);
+        this.movement.moveUp(5);
     }
 
     @Override

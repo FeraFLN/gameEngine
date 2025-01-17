@@ -15,8 +15,8 @@ import javax.swing.ImageIcon;
  */
 public class DownAnimation extends ImagesAnimation{
     
-    private static final Image down = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\MM\\mario\\down.png").getImage();
-    private static final Image stopImage = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\MM\\mario\\right.png").getImage();
+    private static final Image down = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\mario\\down.png").getImage();
+    private static final Image stopImage = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\mario\\right.png").getImage();
 
     public DownAnimation() {
         super(stopImage, down);

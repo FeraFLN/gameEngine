@@ -19,7 +19,7 @@ import javax.swing.ImageIcon;
  * @author Fernando Limeira
  */
 public class BigShot extends ThrowableGameObject{
-    private static final Image i = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\bullet2.png").getImage();
+    private static final Image i = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\bullet2.png").getImage();
     private final Game game;
     private int range =250;
     public BigShot(Game game,int x, int y) {

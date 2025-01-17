@@ -15,9 +15,9 @@ import javax.swing.ImageIcon;
  */
 public class LeftAnimation extends ImagesAnimation{
     
-    private static final Image left = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\MM\\mario\\left.png").getImage();
-    private static final Image left1 = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\MM\\mario\\4.png").getImage();
-    private static final Image stopImage = new ImageIcon("{{PATH}}\\Documents\\NetBeansProjects\\SecondGame\\MM\\mario\\right.png").getImage();
+    private static final Image left = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\mario\\left.png").getImage();
+    private static final Image left1 = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\mario\\4.png").getImage();
+    private static final Image stopImage = new ImageIcon("C:\\Users\\feraf\\OneDrive\\Documentos\\GitHub\\gameEngine\\MM\\mario\\right.png").getImage();
 
     public LeftAnimation() {
         super(stopImage, left,left1);
